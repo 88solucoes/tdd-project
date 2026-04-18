@@ -1,0 +1,9 @@
+1. O Escopo (O que é testado)
+Teste de Unidade: Foca na menor parte possível do código de forma isolada (uma única função, um método ou uma classe). Ele não quer saber do resto do sistema.
+
+Teste Funcional: Foca no comportamento do usuário e no resultado final. Ele testa se uma funcionalidade inteira (como fazer login ou salvar uma lista) funciona do ponto de vista de quem usa o sistema.
+
+2. As Dependências (O que é necessário)
+Teste de Unidade: É executado na memória e não toca em nada externo. Ele não acessa o banco de dados, não abre o navegador e não usa a internet. Por isso, são extremamente rápidos (milhares de testes em segundos).
+
+Teste Funcional: Frequentemente precisa que o sistema esteja rodando. No caso do Django, ele pode simular requisições HTTP, acessar o banco de dados de teste e verificar se a página carregou o conteúdo correto.
